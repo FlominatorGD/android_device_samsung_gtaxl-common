@@ -79,3 +79,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=Samsung \
     ro.soc.model=Exynos7870
+
+# disable blurs
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.supports_background_blur=0
